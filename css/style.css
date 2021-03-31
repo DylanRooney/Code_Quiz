@@ -1,0 +1,93 @@
+:root {
+    --btnColor: indigo;
+    --padding: 25px 34px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 0 0 60px 0;
+}
+
+.highscore {
+    text-align: center;
+    margin: 2px;
+    padding: var(--padding);
+    font-size: 25px;
+    text-decoration: none;
+}
+.highscore:hover {
+    text-decoration: underline;
+}
+
+.displayTimer {
+    font-size: 25px;
+    padding: var(--padding);
+    text-align: center;
+    margin: 0;
+}
+body div section {
+    display: flex;
+    flex-direction: column;
+}
+
+.navBtn {
+    text-align: center;
+    justify-content: center;
+    background-color: var(--btnColor);
+    color: cyan;
+    border: 2px solid black;
+    font-size: 25px;
+    margin: 4px 35%;
+    width: auto;
+    border-radius: 5px;
+}
+.navBtn:hover {
+    opacity: 0.7;
+}
+
+.playBtn {
+    text-align: center;
+    justify-content: center;
+    background-color: var(--btnColor);
+    color: white;
+    font-size: 20px;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.answerSelection {
+    margin: 0px 40%;
+    padding: 15px;
+    border-top: 3px solid grey;
+}
+
+
+.hideBtn {
+    display: none;
+}
+
+.highscoreInput {
+    text-align: center;
+    margin: 0;
+}
+
+.scoresCrnt {
+    margin: 0 500px;
+    padding: 5px 0;
+    text-align: start;
+}
+
+#qstnTxt {
+    font-size: 40px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+}
+
+
+#answerBtns {
+    align-items: flex-start;
+}
